@@ -1,0 +1,286 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+.todo {
+    display:flex;
+    flex-direction: column;
+}
+
+/* header */
+
+.header {
+    background-color: #1f2937;
+    color: white;
+}
+    ul {
+        display: flex;
+        gap: 10px;
+        list-style: none;
+        padding: 20px;
+    }
+        .logo{
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 24px;
+            font-weight: bolder;
+        }
+        .links {
+            margin-left: auto;
+        }
+
+/* opener  */
+
+.opener {
+    background-color: #1f2937;
+    height: 300px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}       
+
+.imagen-opener {
+    width: 356px;
+    height: 153px;
+    /* border-style: solid;
+    border-color: rgb(150, 253, 160); */
+    margin-top: 70px;
+}
+
+.introduccion {
+    color: white;
+    display: flex;
+
+
+    /* border-style: solid;
+    border-color: rgb(150, 253, 160); */
+    max-width: 350px;
+    margin-top: 70px;
+
+    flex-wrap: wrap;
+    gap: 5px;
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+    .descripcion {
+        flex-basis: 100%;
+    }
+    .boton{
+        background-color: #3882f6;
+        padding: 8px;
+        border-radius: 8px;
+        color: white;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+        border: none;
+        outline: none;
+        box-shadow: none;
+    }
+
+/* informacion  */
+
+.informacion {
+    height: 400px;
+    display:flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+    .titulo2 {
+        font-weight: 900;
+        font-size: 36px;
+        
+        /* border-style: solid;
+        border-color: rgb(101, 75, 40); */
+
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .catalogo {
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    .cubos{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: space-around;
+        margin-bottom: -20px;
+    }
+
+        .cubo {
+            border-style: solid;
+            border-color: #3882f6;
+            border-radius: 15px;
+
+            width: 140px;
+            height: 140px;           
+        }
+
+        .cubo2 {
+            /* border-style: solid;
+            border-color: #3882f6; */
+            border-radius: 15px;
+
+            width: 240px;
+            height: 140px;           
+        }
+
+
+        .narraciones{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            width: 100%;
+        }
+        .describir {
+            width: 140px;
+            height: 90px;
+            text-align: center;
+
+            /* border-style: solid;
+            border-color: #3882f6; */
+        }
+
+        .describir2 {
+            width: 240px;
+            height: 90px;
+            text-align: center;
+
+            /* border-style: solid;
+            border-color: #3882f6; */
+        }
+
+
+
+/* testimonios */
+
+.testimonio {
+    background-color: #e5e7eb;
+    height: 300px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    .parrafo {
+        /* border-style: solid;
+        border-color: rgb(75, 22, 22); */
+        width: 700px;
+
+        font-size: 36px;
+        font-weight: 900;
+        color: #1f2937;
+        font-style: italic;
+    }
+
+    .firma {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+/* registro */
+
+.registrate {
+    height: 230px;
+/* 
+    border-style: solid;
+    color: rgb(84, 31, 31); */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    .azul {      
+    /* border-style: solid;
+    border-color: rgb(225, 13, 13); */
+    
+    background-color: #3882f6;
+    height: 110px;
+    width: 1100px;
+
+    border-radius: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+        .llamados{
+            /* border-style: solid;
+            border-color: rgb(244, 14, 14); */
+
+            height: 90px;
+            width: 600px;
+
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .llamado {
+        /* border-style: solid;
+        boder-color: rgb(84, 31, 31); */
+        color: white;
+        font-size: 36px;
+        width: 100%;
+        margin-top: 15px;
+        }
+
+        .llamado2 {
+            /* border-style: solid;
+            color: rgb(84, 31, 31); */
+
+            color: white;
+            margin-top: -20px;
+            }
+
+        .boton2 {
+            /* border-style: solid;
+            color: rgb(84, 31, 31); */
+            height: 90px;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            
+        }
+
+        .boton-registro {
+            background-color: #3882f6;
+            width: 150px;
+            font-size: 20px;
+            font-weight: bolder;
+            padding: 8px;
+            border-radius: 8px;
+            color: white;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+            border-color: white;
+            outline: none;
+            box-shadow: none;
+        }
+
+
+
+
+
+/* footer */
+
+.footer {
+     background-color: #1f2937;
+    color: white;
+    height: 72px;
+
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    }
+ 
